@@ -36,7 +36,7 @@ container.addEventListener("click", () => {
 const button = document.querySelector("#btn");
 const jokeText = document.querySelector("#joke");
 const apiKey = "MIzvTpRwMhbduFsdM1Zxgw==bjt33V93O8oWTwCr";
-const apiURL = "https://api.api-ninjas.com/v1/dadjokes?limit=1";
+const apiURL = "https://api.api-ninjas.com/v1/dadjokes/";
 
 const options = {
     method: "GET",
